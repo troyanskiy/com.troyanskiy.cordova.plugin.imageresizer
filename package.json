@@ -2,6 +2,12 @@
   "name": "com.troyanskiy.cordova.plugin.imageresizer",
   "version": "1.0.0",
   "description": "Image resize on device",
+  "keywords": [
+    "Cordova",
+    "image",
+    "resize",
+    "imageresize"
+  ],
   "cordova": {
     "id": "com.troyanskiy.cordova.plugin.imageresizer",
     "platforms": [
@@ -16,12 +22,6 @@
     "url": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.imageresizer/issues"
   },
   "homepage": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.imageresizer",
-  "keywords": [
-    "Cordova",
-    "image",
-    "resize",
-    "imageresize"
-  ],
   "author": "Raman Rasliuk <roma@redbox.by>",
   "license": "ISC"
 }
