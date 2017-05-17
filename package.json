@@ -8,6 +8,14 @@
       "ios"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.imageresizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.imageresizer/issues"
+  },
+  "homepage": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.imageresizer",
   "keywords": [
     "Cordova",
     "image",
