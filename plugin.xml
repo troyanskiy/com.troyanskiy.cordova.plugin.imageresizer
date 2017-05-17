@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.troyanskiy.cordova.plugin.imageresizer" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>ImageResizer</name>
+  <js-module name="ImageResizer" src="www/ImageResizer.js">
+    <clobbers target="imageResizer" />
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="ImageResizer">
+        <param name="ios-package" value="ImageResizer" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/ImageResizer.swift" />
+  </platform>
+</plugin>
